@@ -51,9 +51,9 @@ class Student extends Person //student subclass for person
 
     
 
-    public Student(String name, String address, String phone, String email, String status) 
+    public Student(String name, String address, String phone, String email, String status)
     {
-        super(name, address, phone, email);
+        super(name, address, phone, email);  //from superclass
         this.status = status;
     }
 
@@ -69,7 +69,7 @@ class Employee extends Person //employee subclass for person
 
     public Employee(String name, String address, String phone, String email, String office, double salary, MyDate dateHired) 
     {
-        super(name, address, phone, email);
+        super(name, address, phone, email); //from superclass
         this.office = office;
         this.salary = salary;
         this.dateHired = dateHired;
@@ -85,7 +85,7 @@ class Faculty extends Employee //faculty subclass for employee which is a subcla
 
     public Faculty(String name, String address, String phone, String email, String office, double salary, MyDate dateHired, String officeHours, String rank) 
     {
-        super(name, address, phone, email, office, salary, dateHired);
+        super(name, address, phone, email, office, salary, dateHired);  //from superclass
         this.officeHours = officeHours;
         this.rank = rank;
     }
