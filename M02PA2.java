@@ -101,7 +101,7 @@ class Staff extends Employee //staff subclass for employee which is a subclass o
 
     public Staff(String name, String address, String phone, String email, String office, double salary, MyDate dateHired, String title) 
     {
-        super(name, address, phone, email, office, salary, dateHired);
+        super(name, address, phone, email, office, salary, dateHired); //from superclass
         this.title = title;
     }
 
