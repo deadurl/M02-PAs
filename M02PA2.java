@@ -9,7 +9,7 @@ public class M02PA2 {
         Student student = new Student("Sam", "222 Main St", "222-222-2222", "Sam@test.com", Student.FRESHMAN);
         Employee employee = new Employee("Gabriel", "333 Main St", "333-333-3333", "Gabriel@test.com", "Room 303", 50000, hireDate);
         Faculty faculty = new Faculty("E'lorah", "444  Main St", "444-444-4444", "Elorah@test.com", "Room 404", 70000, hireDate, "9AM-5PM", "Professor");
-        Staff staff = new Staff("Charlie", "555  Main St", "555-555-5555", "Charlie@test.com", "Room 505", 40000, hireDate, "Administrator");
+        Staff staff = new Staff("Charlie", "555  Main St", "555-555-5555", "Charlie@test.com", "Room 505", 100000, hireDate, "Administrator");
 
         //system print for each object
         System.out.println(person);
