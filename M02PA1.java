@@ -10,8 +10,8 @@ public class M02PA1
         System.out.println("Today's Date: " + currentDate.getMonth() + "/" + currentDate.getDay() + "/" + currentDate.getYear());
 
         //example miliseconds used
-        MyDate date2 = new MyDate( 561555550000L);
-        System.out.println("Date elapsed: " + date2.getMonth() + "/" + date2.getDay() + "/" + date2.getYear()); //this should output the date september 18th, 1987
+        MyDate elpsDate = new MyDate( 561555550000L);
+        System.out.println("Date elapsed: " + elpsDate.getMonth() + "/" + elpsDate.getDay() + "/" + elpsDate.getYear()); //this should output the date september 18th, 1987
     }
 }
 
