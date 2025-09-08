@@ -1,6 +1,8 @@
 
-public class M02PA2 {
-    public static void main(String[] args) {
+public class M02PA2 
+{
+    public static void main(String[] args) 
+    {
         //create myDate object
         MyDate hireDate = new MyDate(561555550000L); // example elapsed time
 
@@ -40,7 +42,6 @@ class Person //base class
     }
 }
 
-
 class Student extends Person //student subclass for person
 {
     private String status; //adds their status as a student
@@ -60,7 +61,6 @@ class Student extends Person //student subclass for person
     @Override public String toString() {return "Student: " + name + " / Status: " + status;} //override toString (added extra to remove "not used" error message)
 }
 
-
 class Employee extends Person //employee subclass for person
 {
     protected String office;
@@ -78,7 +78,6 @@ class Employee extends Person //employee subclass for person
     @Override public String toString() {return "Employee: " + name;}//override so it displays class name
 }
 
-
 class Faculty extends Employee //faculty subclass for employee which is a subclass of person
 {
     private String officeHours, rank; //adds office hours and rank to person for employee
@@ -94,7 +93,6 @@ class Faculty extends Employee //faculty subclass for employee which is a subcla
     {return "Faculty: " + name + " / Rank: " + rank + " / Office Hours: " + officeHours;} //override string method (added extra to remove "not used" error message)
 }
 
-// Staff subclass
 class Staff extends Employee //staff subclass for employee which is a subclass of person
 {
     private String title; //adds title to staff
